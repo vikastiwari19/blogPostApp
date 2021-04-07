@@ -1,0 +1,69 @@
+
+
+.main-header{
+    width: 100vw;
+    line-height: 2rem;
+    background-color: rgb(8, 8, 14);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-color: white;
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+     
+}
+
+
+
+.main-part{
+    width: auto;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    /* border-style: solid;
+    border-width: thin; */
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+}
+
+.head{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 13, 87);
+    margin-bottom: 0rem;
+    padding-block: 0.1rem;
+}
+
+.main-header .navbar-brand{
+   color: white;
+}
+
+.main-header .navbar-nav{
+    padding-left: 5rem;
+    color: white;
+}
+.main-header .nav-link{
+    color: white;
+}
+
+.show{
+  background-color: rgb(188, 222, 245);
+}
+
+.b{
+    margin-bottom: 1rem;
+    
+}
+
+.page-footer{
+    position:fixed;
+   bottom:0;
+   width:100%;
+   padding-block: 0.1;   
+   background:rgb(16, 18, 19);   
+}
+
+
+
+
+
+

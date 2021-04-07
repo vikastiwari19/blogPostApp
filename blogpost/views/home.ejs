@@ -1,0 +1,45 @@
+
+ <!-- include header -->
+ <%- include('partials/_header')%>
+
+<!-- <div class="container main-part">
+    <a href="/add" class="btn btn-sm btn-primary" style="float: right;">New Post</a></br></br>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+        <th>Title</th>
+        <th>view</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% users.forEach(function(user){ %>
+            <tr>
+                <td><h3><%= user.title %></h3></td>
+                <td>
+                    <a href="/show/<%= user.id %>" class="btn btn-sm btn-primary">View</a>
+                </td>
+            </tr>
+            <% }); %>
+    </tbody>
+</table>
+</div> -->
+
+<div class="container main-part">
+    <a href="/add" class="btn btn-sm btn-primary" style="float: right;">New Post</a></br></br>
+<% users.forEach(function(user){ %>
+<div class="card bg-light">
+    <div class="card-body">
+      <h3 class="card-title text-uppercase"><%= user.title %></h3>
+
+
+      <a href="/show/<%= user.id %>" style="float: right;" class="btn btn-sm btn-primary">View</a>
+    
+    </div>
+  </div>
+  <% }); %>
+</br></br></br></br>
+</div>
+
+<%- include('partials/_footer')%>
+
+
